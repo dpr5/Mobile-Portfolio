@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/exp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sentient"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/exp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Front End Web Developer"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/exp1"/>
+
+            <TextView
+                android:id="@+id/exp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*HTML, CSS, Sass, Wordpress"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/exp2"/>
+
+            <TextView
+                android:id="@+id/exp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/exp3"
+                android:text="Dream In Reality"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/exp5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*CEO, Lead Developer and Designer"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/exp4"/>
+
+            <TextView
+                android:id="@+id/exp6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Game and Mobile Developement"
+                android:textSize="20dp"
+                android:layout_below="@+id/exp5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

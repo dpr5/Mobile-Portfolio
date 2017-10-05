@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dharmesh Portfolio</string>
+    <string name="educationBach">New Jersey Institute of Technology   \n Bachelor of Science   \n Information Technology</string>
+    <string name="educationMast">New Jersey Institute of Technology   \n Master of Science   \n Engineering Science</string>
+    <string name="objectiveText">To obtain a position that builds upon skills gained in \n acedemai in software and game developement and digital design</string>
+    <string name="bioText">Thank you for downloading my app. This app is being used as a portfolio/resume to acquaint you with my skills and experience. I am hoping you will be able to learn more about me from this app.</string>
+    <string name="myName">Dharmesh Rana</string>
+    <string name="education">Education</string>
+    <string name="gitbtn">gitBtn</string>
+    <string name="mypic">myPic</string>
+    <string name="potBtn">porBtn</string>
+    <string name="title_activity_tabs">tabs</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
