@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     //private static int SPLASH_TIME_OUT = 4000;
     private ImageButton portfolio_btn;
-    private SectionsPageAdpater sectionsPageAdapter;
+    private SectionsPageAdapater sectionsPageAdapter;
     private ViewPager mViewPager;
     private static final String TAG = "MainActivity";
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate: Starting.");
-        SectionsPageAdpater adpater = new SectionsPageAdpater(getSupportFragmentManager());
+        SectionsPageAdapater adpater = new SectionsPageAdapater(getSupportFragmentManager());
 
 
         ImageView roundHeaderImage = (ImageView) findViewById(R.id.header_image);
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupViewPager(ViewPager viewPager) {
-        SectionsPageAdpater adapter = new SectionsPageAdpater(getSupportFragmentManager());
+        SectionsPageAdapater adapter = new SectionsPageAdapater(getSupportFragmentManager());
         adapter.addFragment(new projectsTab(), "Projects");
         adapter.addFragment(new experienceTab(), "Experience");
         adapter.addFragment(new educationTab(), "Education");
